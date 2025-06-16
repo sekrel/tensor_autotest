@@ -1,0 +1,93 @@
+# Python общие
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+junit/
+
+# Selenium и браузеры
+/geckodriver.log
+/chromedriver.log
+/edgedriver.log
+*.log
+webdriver/
+drivers/
+*.profraw
+
+# Загруженные файлы (если тесты скачивают файлы)
+/downloads/
+/tmp_downloads/
+
+# WebDriver Manager (кеш драйверов)
+.webdrivers/
+.webdriver_manager/
+
+# Операционные системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Конфигурационные файлы
+*.local
+.env
+.env.test
+secrets.yml
+
+# Локальные настройки
+settings.json
+*.bak
